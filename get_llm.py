@@ -8,8 +8,6 @@ load_dotenv()
 project = os.getenv("GOOGLE_CLOUD_PROJECT")
 
 
-model = "gemini-2.5-flash-lite"
-
 def get_llm(model:str)-> BaseChatModel:
     
     return (ChatGoogleGenerativeAI(
