@@ -1,0 +1,12 @@
+[project]
+name = "customer-support-project"
+version = "0.1.0"
+description = "building an Agent which helps and guides the customer based on their complaints."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain>=1.2.15",
+    "langchain-google-genai>=4.2.2",
+    "langgraph>=1.1.8",
+]
